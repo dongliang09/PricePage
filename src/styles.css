@@ -1,0 +1,116 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --lightBlue: #ebedff;
+  --midBlue: #5268ff;
+  --darkBlue: #3741d9;
+}
+.header {
+  font-size: 64px;
+}
+
+.plan {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  text-align: left;
+  padding: 1rem 1rem;
+}
+
+.choosePlan {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  gap: 1.5rem;
+}
+
+.freeStyle {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.proStyle {
+  background-color: var(--lightBlue);
+  color: #3741d9;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.premiumStyle {
+  background-color: var(--midBlue);
+  color: white;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.option {
+  margin: 1rem auto;
+}
+
+.freeStyle a {
+  background-color: black;
+  color: white;
+  border-radius: 1.5rem;
+  padding: 0.75rem 2rem;
+}
+
+.freeStyle a:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.proStyle a {
+  background-color: var(--darkBlue);
+  color: var(--lightBlue);
+  border-radius: 1.5rem;
+  padding: 0.75rem 2rem;
+}
+
+.proStyle a:hover {
+  background-color: var(--lightBlue);
+  color: var(--darkBlue);
+  border: 2px solid var(--darkBlue);
+}
+
+.premiumStyle a {
+  background-color: white;
+  color: var(--midBlue);
+  border-radius: 1.5rem;
+  padding: 0.75rem 2rem;
+}
+
+.premiumStyle a:hover {
+  background-color: var(--midBlue);
+  color: white;
+  border: 2px solid white;
+}
+
+.divider {
+  border-top: 3px solid #ddd;
+}
+
+.price {
+  margin: 0;
+}
+
+.priceType {
+  margin: 0;
+}
