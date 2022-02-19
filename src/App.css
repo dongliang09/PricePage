@@ -1,6 +1,5 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
 }
 
 :root {
@@ -8,8 +7,11 @@
   --midBlue: #5268ff;
   --darkBlue: #3741d9;
 }
+
 .header {
   font-size: 64px;
+  text-align: center;
+  padding: 3rem;
 }
 
 .plan {
@@ -113,4 +115,30 @@
 
 .priceType {
   margin: 0;
+}
+
+.faqSection {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.collapsible {
+  padding: 0;
+}
+
+.collapsible h2:hover {
+  cursor: pointer;
+}
+
+.faqSingleQ {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faqArrow {
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
